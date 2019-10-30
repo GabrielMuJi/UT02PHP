@@ -1,13 +1,3 @@
-<?php
-echo "Tandas de PHP";
-$path = "Tanda1";
-$dh = opendir($path);
-$i=1;
-while (($file = readdir($dh)) !== false) {
-    if($file != "." && $file != ".." && $file != "index.php" && $file != ".htaccess" && $file != "error_log" && $file != "cgi-bin") {
-        echo "<a href='$path/$file'>$file</a><br /><br />";
-        $i++;
-    }
-}
-closedir($dh);
-?> 
+<h1>WOW YOU EXIST</h1>
+
+<a href="Tanda1"/>
